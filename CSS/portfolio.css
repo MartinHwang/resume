@@ -29,7 +29,7 @@ body {
     width: 6em;
 }
 #portfolio {
-    background-color: #1b5209;
+    background-color: #267f0b;
     border-radius: 1em 1em 0 0;
     font-size: 1.2em;
     margin-left: 0.2em;
@@ -66,7 +66,7 @@ body {
     width: 3rem;
 }
 header{
-    background: linear-gradient(180deg, #3d0045, #a600ac);
+    background: linear-gradient(180deg, #267f0b, #2caf05);
     display: flex;
     justify-content: space-between;
 }
@@ -107,7 +107,7 @@ header ul li:hover a {
     text-shadow: 1px 1px 2px #e9ba4e;
 }
 #secondaryNav ul {
-    background:  #3d0045;
+    background: #267f0b;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -121,7 +121,7 @@ header ul li:hover a {
 }
 
 #secondaryNav ul li a {
-    border-bottom: 2px solid #3d0045;
+    border-bottom: 2px solid #267f0b;
     color: #aab7c4;
     display: block;
     font-weight: bold;
@@ -142,31 +142,6 @@ header ul li:hover a {
 main {
     background: white;
     padding: 1.5em;
-}
-main section h2 {
-    color: #a600ac;
-    border-bottom: 2px solid #a600ac;
-    display: inline
-}
-main section h3 {
-    margin-left: 1em;
-}
-main section ul {
-    font-size: 1.3em;
-}
-main section li {
-    font-weight: bold;
-    padding-bottom: 0.5em;
-}
-
-main section dl dt {
-    margin: -1em 0 0 1.3em;
-    font-style: italic;
-}
-
-main section dl dd ul {
-    font-size: 1em;
-    margin-left: -2em;
 }
 .bounce:hover {
     -webkit-animation: bounce 0.5s;
@@ -190,11 +165,10 @@ footer {
     text-align: center;
 }
 footer p {
-    background: #3d0045;
+    background: #267f0b;
     height: 1.8em;
     font-size: 1.5em;
     margin:0;
     padding: 0.4em 0 0 0;
 }
-
 

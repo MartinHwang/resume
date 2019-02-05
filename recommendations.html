@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="./CSS/recommendations.css" rel="stylesheet">
+        <script src="./JS/recommendations.js"></script>
+        <title>Martin Hwang Resume</title>
+    </head>
+    <body>
+        <nav id="primaryNav">
+            <ul>
+                <a href="index.html" id="resume"><li><h4>RESUME</h4></li></a>
+                <a href="portfolio.html" id="portfolio"><li><h4>PORTFOLIO</h4></li></a>
+                <a href="recommendations.html" id="recommendations"><li><h4>RECOMMENDATIONS</h4></li></a>
+                <a href="./img/Co_curricular_record.pdf" id="coCurricularRecord"><li><h4>CO CURRICULAR RECORD</h4></li></a>
+                <section id="print">
+                    <a href="./img/Martin-Hwang-Resume.pdf"><img class="bounce" src="./img/pdfIcon.png" alt="pdf icon"></a>
+                    <a href="./img/Martin-Hwang-Resume.doc"><img class="bounce" src="./img/wordIcon.png" alt="word icon"></a>
+                    <a href="https://www.linkedin.com/in/martin-hwang-developer"><img class="bounce" src="./img/linkedin" alt="linkedin icon"></a>
+                </section>
+            </ul>
+        </nav>
+        <header>
+            <section>
+                <h1 class="header-item">Martin Hwang</h1>
+                <h3 class="header-item">Front-End Developer</h3>
+            </section>
+            <ul class="header-item">
+                <li>
+                    <address class="article-item">Kitchener, ON</address>
+                </li>
+                <li><a class="article-item" href="tel:+15195803811">(519)580-3811</a></li>
+                <li><a class="article-item" href="https://resume.martinhwang.ca">www.martinhwang.ca</a></li>
+                <li><a class="article-item" href="mailto:resume@martinhwang.ca">resume@martinhwang.ca</a></li>
+            </ul>
+        </header>
+        <nav id="secondaryNav">
+            <ul>
+                <li><a href="#" onclick="displayDarceeRecommendation()">Darcee Carnes</a></li>
+                <li><a href="#">Chelsea Winn</a></li>
+                <li><a href="#" onclick="displaySunitaThakurRecommendation()">Sunita Thakur</a></li>
+                <li><a href="#" onclick="displayMarkMcCaulayRecommendation()">Mark McCaulay</a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </nav>
+        <main>
+            <iframe class="ref_iframe" id="darcee" src="./img/Darcee_Reference_Letter.pdf">
+            </iframe>
+            <iframe class="ref_iframe" id="sunitaThakur" src="img/Sunita_Thakur_Letter.pdf" hidden></iframe>
+            <iframe class="ref_iframe" id="markMcCaulay" src="./img/Mark_McCaulay_Reference_Letter.pdf" hidden>
+            </iframe>
+        </main>
+        <footer><p>Practice makes you perfect and do not be lazy to learn something new.</p></footer>
+    </body>
+</html>
