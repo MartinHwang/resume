@@ -1,0 +1,19 @@
+header{
+    background: linear-gradient(180deg,  #b70b0b,  #ea241d);
+}
+#secondaryNav ul {
+    background: #b70b0b;
+}
+#secondaryNav ul li a {
+    border-bottom: 2px solid #b70b0b;
+}
+.ref_img{
+    width: 80em;
+    height: 85em;
+}
+main p {
+    text-align: center;
+}
+footer p {
+    background:  #b70b0b;
+}
