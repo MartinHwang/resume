@@ -1,0 +1,242 @@
+html {
+    font-size: 18px;
+}
+
+body {
+    background-color: #e9e4ea;
+    display:          grid;
+    font-size:        16px;
+    padding:          2em;
+}
+
+#primaryNav {
+    align-items:     flex-end;
+    display:         flex;
+    justify-content: space-between;
+}
+
+#primaryNav ul {
+    align-items:     flex-end;
+    display:         flex;
+    justify-content: flex-start;
+    margin:          0;
+    padding:         0;
+}
+
+#primaryNav ul li {
+    border-radius: 1em 1em 0 0;
+    list-style:    none;
+}
+
+#primaryNav ul a {
+    color:           #fcfcfc;
+    display:         block;
+    font-weight:     bold;
+    margin:          0 .25rem 0 0;
+    padding:         1rem;
+    text-decoration: none;
+}
+
+#primaryNav div a {
+    margin: 0 0 0 .25rem;
+}
+
+#primaryNav a:hover {
+    color: #e9ba4e;
+}
+
+#print {
+    display:         flex;
+    justify-content: flex-end;
+    margin:          0 0 .5rem 0;
+}
+
+#print img {
+    border-radius: 5px;
+    display:       block;
+    height:        2.2rem;
+    position:      relative;
+    margin:        0 0 0 .5rem;
+    width:         2.2rem;
+}
+
+#nav-resume {
+    background-color: #3d0045;
+    border-radius:    0.6em 0.6em 0 0;
+    font-size:        1em;
+}
+
+#nav-recommendations {
+    background-color: #00145d;
+    border-radius:    0.6em 0.6em 0 0;
+    font-size:        1em;
+    margin-left:      0.2em;
+}
+
+#nav-coCurricularRecord {
+    background-color: #b70b0b;;
+    border-radius:    0.6em 0.6em 0 0;
+    font-size:        1em;
+    margin-left:      0.2em;
+}
+
+header {
+    background:      linear-gradient(180deg, #3d0045, #a600ac);
+    display:         flex;
+    justify-content: space-between;
+}
+
+header section {
+    color:   #fcfcfc;
+    padding: 0;
+}
+
+header section h1 {
+    font-size:     4.5rem;
+    margin-bottom: 0;
+    padding-left:  0.5em;
+}
+
+header section h3 {
+    color:          #e9ba4e;
+    font-size:      2.5rem;
+    letter-spacing: .1em;
+    margin-top:     0;
+    padding-left:   1em;
+}
+
+header ul {
+    color:     #f4f5f5;
+    display:   flex;
+    font-size: 1.4em;
+    flex-flow: column wrap;
+    margin:    2.6em 2em 0 0;
+    padding:   0.5rem;
+}
+
+header ul li {
+    list-style: none;
+    padding:    0.5em 0;
+}
+
+header ul a {
+    color:           #f4f5f5;
+    font-weight:     bold;
+    text-decoration: none;
+}
+
+header ul li:hover a {
+    text-shadow: 1px 1px 2px #e9ba4e;
+}
+
+#secondaryNav ul {
+    background:      #3d0045;
+    display:         flex;
+    flex-wrap:       wrap;
+    justify-content: center;
+    list-style:      none;
+    margin:          0;
+    padding:         0.2em;
+}
+
+#secondaryNav ul li {
+    padding: 0.7em 2em;
+}
+
+#secondaryNav ul li a {
+    border-bottom:   2px solid #3d0045;
+    color:           #aab7c4;
+    display:         block;
+    font-weight:     bold;
+    text-decoration: none;
+}
+
+@media all and (max-width: 800px) {
+    nav ul {
+        -webkit-flex-flow: column wrap;
+        flex-flow:         column wrap;
+    }
+}
+
+#secondaryNav ul li:hover a {
+    color:         #e9ba4e;
+    border-bottom: 2px solid #e9ba4e;
+}
+
+main {
+    background: white;
+    padding:    1.5em;
+}
+
+main section h2 {
+    color:         #a600ac;
+    border-bottom: 2px solid #a600ac;
+    display:       inline
+}
+
+main section h3 {
+    margin-left: 1em;
+}
+
+main section li {
+    font-weight:    bold;
+    padding-bottom: 0.5em;
+}
+
+main section dl dt {
+    margin:     -1em 0 0 1.3em;
+    font-style: italic;
+}
+
+main section dl dd ul {
+    font-size:   1em;
+    margin-left: -2em;
+}
+
+#resume {
+    margin:     0 auto;
+    width:      60rem;
+    box-shadow: 0 0 1.5rem #999999;
+    padding:    3rem;
+}
+
+.bounce:hover {
+    -webkit-animation: bounce 0.5s;
+    -moz-animation:    bounce 0.5s;
+    animation:         bounce 0.5s;
+}
+
+@-webkit-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+
+@-moz-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+
+footer {
+    color:      #e9ba4e;
+    text-align: center;
+}
+
+footer p {
+    background: #3d0045;
+    height:     1.8em;
+    font-size:  1.5em;
+    margin:     0;
+    padding:    0.4em 0 0 0;
+}
+
+.period {
+    display:         flex;
+    justify-content: flex-end;
+}
+
+
+

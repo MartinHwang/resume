@@ -1,20 +1,28 @@
-header{
+header {
     background: linear-gradient(180deg, #00145d, #0038b9);
 }
+
 #secondaryNav ul {
     background: #00145d;
 }
+
 #secondaryNav ul li a {
     border-bottom: 2px solid #00145d;
 }
-.ref_img{
-    width: 70em;
+
+.ref_img {
+    width:  70em;
     height: 85em;
-    margin-left: 10em;
 }
-#markMcCaulay{
+
+#darcee {
+    text-align: center;
+}
+
+#chelseaWin {
     display: none;
 }
+
 footer p {
     background: #00145d;
 }
