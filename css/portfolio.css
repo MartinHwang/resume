@@ -1,0 +1,63 @@
+header {
+    background: linear-gradient(180deg, #30b409, #31ff5b);
+}
+
+#secondaryNav ul {
+    background: #30b409;
+}
+
+#secondaryNav ul li a {
+    border-bottom: 2px solid #30b409;
+}
+
+.ref_img {
+    width:  70em;
+    height: 85em;
+}
+
+#darcee {
+    text-align: center;
+}
+
+#chelseaWin {
+    display: none;
+}
+
+footer p {
+    background: #30b409;
+}
+
+.portfolio main {
+    display:         flex;
+    justify-content: center;
+}
+
+.portfolio main section h1 {
+    border-bottom: 2px solid #30b409;
+    color:         #30b409;
+    display:       inline
+}
+
+.portfolio main section h2 {
+    border-bottom: none;
+    color:         black;
+    display:       block;
+    margin:        1.5em 0 0 1em;
+}
+
+.portfolio main section h3 {
+    border-bottom: none;
+    color:         #c49a41;
+    display:       block;
+    margin-left:   1em;
+}
+
+.portfolio img {
+    padding:         2em;
+    justify-content: center;
+    width:           70em;
+    height:          40em;
+}
+
+
+
