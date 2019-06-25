@@ -6,7 +6,7 @@ body {
     background-color: #e9e4ea;
     display:          grid;
     font-size:        16px;
-    padding:          2em;
+    padding:          3%;
 }
 
 #primaryNav {
@@ -24,11 +24,13 @@ body {
 }
 
 #primaryNav ul li {
-    border-radius: 1em 1em 0 0;
-    list-style:    none;
+    /*border-radius: 1em 1em 0 0;*/
+    list-style: none;
 }
 
 #primaryNav ul a {
+    border-radius:   0.6em 0.6em 0 0;
+    font-size:       1em;
     color:           #fcfcfc;
     display:         block;
     font-weight:     bold;
@@ -42,7 +44,25 @@ body {
 }
 
 #primaryNav a:hover {
-    color: #e9ba4e;
+    color:     #e9ba4e;
+    font-size: large;
+}
+
+#nav-resume {
+    background-color: #3d0045;
+    margin-left:      0;
+}
+
+#nav-recommendations {
+    background-color: #00145d;
+}
+
+#nav-portfolio {
+    background-color: #30b409;
+}
+
+#nav-coCurricularRecord {
+    background-color: #b70b0b;;
 }
 
 #print {
@@ -60,37 +80,16 @@ body {
     width:         2.2rem;
 }
 
-#nav-resume {
-    background-color: #3d0045;
-    border-radius:    0.6em 0.6em 0 0;
-    font-size:        1em;
-}
 
-#nav-recommendations {
-    background-color: #00145d;
-    border-radius:    0.6em 0.6em 0 0;
-    font-size:        1em;
-    margin-left:      0.2em;
-}
-
-#nav-portfolio
-{
-    background-color: #30b409;
-    border-radius:    0.6em 0.6em 0 0;
-    font-size:        1em;
-    margin-left:      0.2em;
-}
-
-#nav-coCurricularRecord {
-    background-color: #b70b0b;;
-    border-radius:    0.6em 0.6em 0 0;
-    font-size:        1em;
-    margin-left:      0.2em;
-}
 header {
     background:      linear-gradient(180deg, #3d0045, #a600ac);
     display:         flex;
     justify-content: space-between;
+    flex-wrap:       wrap;
+}
+
+header h1 {
+    flex-grow: inherit;
 }
 
 header section {
@@ -99,26 +98,26 @@ header section {
 }
 
 header section h1 {
-    font-size:     4.5rem;
-    margin-bottom: 0;
-    padding-left:  0.5em;
+    font-size:    500%;
+    margin:       12% 0 1% 0;
+    padding-left: 8%;
+    width:        100%;
 }
 
 header section h3 {
     color:          #e9ba4e;
-    font-size:      2.5rem;
+    font-size:      300%;
     letter-spacing: .1em;
-    margin-top:     0;
-    padding-left:   1em;
+    margin:         0;
+    padding-left:   8%;
 }
 
 header ul {
     color:     #f4f5f5;
     display:   flex;
-    font-size: 1.4em;
+    font-size: 150%;
     flex-flow: column wrap;
-    margin:    2.6em 2em 0 0;
-    padding:   0.5rem;
+    margin:    6% 4% 5% 0;
 }
 
 header ul li {
@@ -137,13 +136,13 @@ header ul li:hover a {
 }
 
 #secondaryNav ul {
-    background:      #3d0045;
-    display:         flex;
-    flex-wrap:       wrap;
-    justify-content: center;
-    list-style:      none;
-    margin:          0;
-    padding:         0.2em;
+    background:            #3d0045;
+    list-style:            none;
+    margin:                0;
+    padding:               0.2em;
+    display:               grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap:              1rem;
 }
 
 #secondaryNav ul li {
@@ -156,55 +155,72 @@ header ul li:hover a {
     display:         block;
     font-weight:     bold;
     text-decoration: none;
+    text-align:      center;
 }
 
-@media all and (max-width: 800px) {
-    nav ul {
-        -webkit-flex-flow: column wrap;
-        flex-flow:         column wrap;
-    }
-}
 
 #secondaryNav ul li:hover a {
-    color:         #e9ba4e;
-    border-bottom: 2px solid #e9ba4e;
+    color: #e9ba4e;
 }
 
 main {
-    background: white;
-    padding:    1.5em;
+    background:            white;
+    padding:               1.5em;
+    display:               grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap:              1rem;
 }
 
 main section h2 {
     color:         #a600ac;
     border-bottom: 2px solid #a600ac;
-    display:       inline
-}
-
-main section h3 {
-    margin-left: 1em;
+    display:       inline;
+    font-size:     150%;
 }
 
 main section li {
-    font-weight:    bold;
-    padding-bottom: 0.5em;
+    font-size:      90%;
+    padding-bottom: 1%;
 }
 
 main section dl dt {
-    margin:     -1em 0 0 1.3em;
+    margin:     0 0 0 1.5%;
     font-style: italic;
 }
 
 main section dl dd ul {
-    font-size:   1em;
-    margin-left: -2em;
+    font-size: 1em;
 }
 
 #resume {
     margin:     0 auto;
-    width:      60rem;
     box-shadow: 0 0 1.5rem #999999;
-    padding:    3rem;
+}
+
+#resume section {
+    padding: 3% 3% 0;
+}
+
+#resume section:nth-child(1) ul li {
+    list-style: inside;
+}
+
+#resume section h3 {
+    margin: 1rem 0 0.5rem 0;
+}
+
+#resume section ul {
+    padding: 0;
+}
+
+#resume section > ul li {
+    list-style:  inside;
+    margin-left: 1.5%;
+    font-size:   1rem;
+}
+
+#resume section > ul > li {
+    list-style: none;
 }
 
 .bounce:hover {
@@ -228,8 +244,11 @@ main section dl dd ul {
 }
 
 footer {
-    color:      #e9ba4e;
-    text-align: center;
+    color:                 #e9ba4e;
+    text-align:            center;
+    display:               grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap:              1rem;
 }
 
 footer p {
@@ -242,8 +261,62 @@ footer p {
 
 .period {
     display:         flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    flex-wrap:       wrap;
+    font-style:      italic;
 }
 
+.period div {
+    padding-bottom: 1%;
+}
 
+#resume section:nth-child(4) h3, #resume section:nth-child(6) h3 {
+    margin-top: 0;
+}
 
+#resume section:nth-child(4) ul li, #resume section:nth-child(6) ul li {
+    margin-bottom: 1%;
+}
+
+@media all and (max-width: 570px) {
+    body {
+        padding: 0;
+        margin:  0;
+    }
+
+    #primaryNav ul {
+        align-items: stretch;
+        width:       100%
+    }
+
+    #print {
+        display: none;
+    }
+
+    #resume {
+        box-shadow: none;
+    }
+
+    #resume section {
+        padding: 0;
+    }
+
+    .period span {
+        min-width: 10rem;
+    }
+
+    header ul a:nth-child(1) {
+        font-size: 95%;
+    }
+
+    #primaryNav ul a {
+        border-radius: 2em 0 0 2em;
+    }
+}
+
+@media all and (max-width: 800px) {
+    nav ul {
+        -webkit-flex-flow: column wrap;
+        flex-flow:         column wrap;
+    }
+}

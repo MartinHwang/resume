@@ -1,5 +1,5 @@
 <nav id="primaryNav">
-    <ul>
+    <ul class="nav">
         <li><a href="/index.php" id="nav-resume">RESUME</a></li>
         <li><a href="/php/recommendations.php" id="nav-recommendations">RECOMMENDATIONS</a></li>
         <li><a href="/php/portfolio.php" id="nav-portfolio">PORTFOLIO</a></li>
@@ -17,7 +17,7 @@
 <header>
     <section>
         <h1 class="header-item">Martin Hwang</h1>
-        <h3 class="header-item">Full-Stack Developer</h3>
+        <h3 class="header-item">Web Developer</h3>
     </section>
     <ul class="header-item">
         <li>

@@ -11,8 +11,7 @@ header {
 }
 
 .ref_img {
-    width:  70em;
-    height: 85em;
+    width: 80%;
 }
 
 #darcee {
@@ -25,4 +24,20 @@ header {
 
 footer p {
     background: #00145d;
+}
+
+
+@media all and (max-width: 570px) {
+    main {
+        padding: 0;
+    }
+
+    #darcee, #chelseaWin {
+        margin: 0;
+    }
+
+    .ref_img {
+        width:  100%;
+        height: 100%;
+    }
 }
