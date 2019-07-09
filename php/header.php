@@ -6,7 +6,7 @@
         <li><a href="/php/coCurricularRecord.php" id="nav-coCurricularRecord">CO CURRICULAR RECORD</a></li>
     </ul>
 
-    <div id="print">
+    <div id="print" class="print">
         <a href="/docs/Martin-Hwang-Resume.pdf"><img class="bounce" src="/img/pdfIcon.png" alt="pdf icon"></a>
         <a href="/docs/Martin-Hwang-Resume.docx"><img class="bounce" src="/img/wordIcon.png" alt="word icon"></a>
         <a href="https://www.linkedin.com/in/martin-hwang-developer"><img class="bounce" src="/img/linkedin.png" alt="linkedin icon"></a>

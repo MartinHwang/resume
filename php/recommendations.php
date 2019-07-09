@@ -18,5 +18,7 @@ include('header.php');
     <p id="darcee"><img class="ref_img" alt="darcee carnes reference" src="/img/Darcee_Reference_Letter.png"></p>
     <p id="chelseaWin"><img class="ref_img" alt="chelsea win reference" src="/img/ChelseaWin_Reference.png"></p>
 </main>
-<footer><p>&copy Martin Hwang</p></footer>
+<?php
+include ('footer.php');
+?>
 

@@ -23,5 +23,7 @@ include('header.php');
         <p id="mean" class="portfolio"></p>
     </p>
 </div>
-<footer><p>&copy Martin Hwang</p></footer>
+<?php
+include ('footer.php');
+?>
 </body>

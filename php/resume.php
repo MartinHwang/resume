@@ -81,7 +81,7 @@
                         <span>2018–2019</span>
                     </div>
                     <ul>
-                        <li>AHTML5 Foundations, CSS3 Foundations, JavaScript Foundation, PHP 7 Foundation</li>
+                        <li>HTML5 Foundations, CSS3 Foundations, JavaScript Foundations, PHP 7 Foundation, PHP and MySQL</li>
                     </ul>
                 </li>
                 <li>
@@ -204,4 +204,6 @@
         </section>
     </div>
 </main>
-<footer><p>&copy Martin Hwang</p></footer>
+<?php
+include ('footer.php');
+?>

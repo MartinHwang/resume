@@ -21,4 +21,6 @@ include('header.php');
         <img class="ref_img" alt="co curricular record forth page" src="/img/Co_curricular_record_4.png">
     </p>
 </main>
-<footer><p>&copy Martin Hwang</p></footer>
+<?php
+include ('footer.php');
+?>
