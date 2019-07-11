@@ -1,13 +1,3 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/coCurricularRecord.css">
-    <title>Martin Hwang Resume</title>
-</head>
-<?php
-include('header.php');
-?>
 <nav id="secondaryNav">
     <ul>
         <li><a>CO CURRICULAR RECORD</a></li>
@@ -21,6 +11,4 @@ include('header.php');
         <img class="ref_img" alt="co curricular record forth page" src="/img/Co_curricular_record_4.png">
     </p>
 </main>
-<?php
-include ('footer.php');
-?>
+

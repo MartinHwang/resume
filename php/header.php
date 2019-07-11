@@ -1,9 +1,9 @@
 <nav id="primaryNav">
     <ul class="nav">
-        <li><a href="/index.php" id="nav-resume">RESUME</a></li>
-        <li><a href="/php/recommendations.php" id="nav-recommendations">RECOMMENDATIONS</a></li>
-        <li><a href="/php/portfolio.php" id="nav-portfolio">PORTFOLIO</a></li>
-        <li><a href="/php/coCurricularRecord.php" id="nav-coCurricularRecord">CO CURRICULAR RECORD</a></li>
+        <li><a href="index.php?p=resume" id="nav-resume">RESUME</a></li>
+        <li><a href="index.php?p=recommendations" id="nav-recommendations">RECOMMENDATIONS</a></li>
+        <li><a href="index.php?p=portfolio" id="nav-portfolio">PORTFOLIO</a></li>
+        <li><a href="index.php?p=coCurricularRecord" id="nav-coCurricularRecord">CO CURRICULAR RECORD</a></li>
     </ul>
 
     <div id="print" class="print">
@@ -13,13 +13,29 @@
         <a href="https://github.com/MartinHwang"><img class="bounce" src="/img/githubIcon.png" alt="github icon"></a>
     </div>
 </nav>
+<header class="container">
+    <div id="menu" class="content-1">
+        <div onclick="openMenu()" id="menu_open" class="menu_open">
+            <i class="fa fa-bars"></i>
+        </div>
+        <div onclick="closeMenu()" id="menu_close" class="menu_close">
+            <i class="fa fa-times"></i>
+        </div>
 
-<header>
-    <section>
+        <nav id="nav" class="active">
+            <ul>
+                <li><a href="index.php?p=resume">RESUME</a></li>
+                <li><a href="index.php?p=recommendations">RECOMMENDATIONS</a></li>
+                <li><a href="index.php?p=portfolio">PORTFOLIO</a></li>
+                <li><a href="index.php?p=coCurricularRecord">CO CURRICULAR RECORD</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="content-2">
         <h1 class="header-item">Martin Hwang</h1>
         <h3 class="header-item">Web Developer</h3>
     </section>
-    <ul class="header-item">
+    <ul class="header-item content-3">
         <li>
             <address class="article-item">Kitchener, ON</address>
         </li>

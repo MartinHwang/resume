@@ -141,14 +141,14 @@
                     </ul>
                 </li>
                 <li>
-                <h3>Orientation Leader</h3>
-                <div class="period">
-                    <div>Conestoga Student Engagement, Kitchener, ON</div>
-                    <span>2018</span>
-                </div>
-                <ul>
-                    <li>Supported incoming students during Orientation and throughout the academic year</li>
-                </ul>
+                    <h3>Orientation Leader</h3>
+                    <div class="period">
+                        <div>Conestoga Student Engagement, Kitchener, ON</div>
+                        <span>2018</span>
+                    </div>
+                    <ul>
+                        <li>Supported incoming students during Orientation and throughout the academic year</li>
+                    </ul>
                 </li>
             </ul>
         </section>
@@ -204,6 +204,3 @@
         </section>
     </div>
 </main>
-<?php
-include ('footer.php');
-?>

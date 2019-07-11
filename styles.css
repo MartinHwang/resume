@@ -80,12 +80,42 @@ body {
     width:         2.2rem;
 }
 
+/*grid for header*/
+.container {
+    display:               grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows:    3em 2fr 0.5fr;
+
+}
+
+.content-1 {
+    grid-row-start:    1;
+    grid-row-end:      2;
+    grid-column-start: 1;
+    grid-column-end:   4;
+}
+
+.content-2 {
+    grid-row-start:    2;
+    grid-row-end:      3;
+    grid-column-start: 1;
+    grid-column-end:   2;
+}
+
+.content-3 {
+    grid-row-start:    2;
+    grid-row-end:      3;
+    grid-column-start: 3;
+    grid-column-end:   4;
+}
+
+#menu {
+    display: none;
+}
 
 header {
     background:      linear-gradient(180deg, #3d0045, #a600ac);
-    display:         flex;
     justify-content: space-between;
-    flex-wrap:       wrap;
 }
 
 header h1 {
@@ -98,10 +128,9 @@ header section {
 }
 
 header section h1 {
-    font-size:    500%;
-    margin:       12% 0 1% 0;
-    padding-left: 8%;
-    width:        100%;
+    font-size: 500%;
+    margin:    0;
+    padding:   0 0 0 8%;
 }
 
 header section h3 {
@@ -117,12 +146,12 @@ header ul {
     display:   flex;
     font-size: 150%;
     flex-flow: column wrap;
-    margin:    6% 4% 5% 0;
+    margin:    0.2em 0 0 0;
 }
 
 header ul li {
     list-style: none;
-    padding:    0.5em 0;
+    padding:    0.5em 1em 0.5em 0;
 }
 
 header ul a {
@@ -146,7 +175,7 @@ header ul li:hover a {
 }
 
 #secondaryNav ul li {
-    padding: 0.7em 2em;
+    padding: 0.7em 1em;
 }
 
 #secondaryNav ul li a {
@@ -286,35 +315,41 @@ footer p {
     #print {
         display: none;
     }
+
     #print_footer {
         display:         flex;
         justify-content: flex-end;
-        margin:          .5em 0 .5rem 0;
+        margin:          0.4em 1em 0.5em 0;
     }
+
     footer p {
         display: none;
     }
 
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 750px) {
     body {
         padding: 0;
         margin:  0;
     }
 
-    nav ul {
-        -webkit-flex-flow: column wrap;
-        flex-flow:         column wrap;
-    }
-
-    #primaryNav ul {
-        align-items: stretch;
-        width:       100%
-    }
-
-    #print {
+    /*hide primary navigation above header*/
+    #primaryNav {
         display: none;
+    }
+
+    /*resize h1 h3 li in header*/
+    .content-2 h1 {
+        font-size: 160%;
+    }
+
+    .content-2 h3 {
+        font-size: 120%;
+    }
+
+    .content-3 li {
+        font-size: 60%;
     }
 
     #resume {
@@ -337,4 +372,13 @@ footer p {
         border-radius: 2em 0 0 2em;
     }
 }
+
+.ref_img {
+    width: 90%;
+}
+
+.pageNotFound {
+    text-align: center;
+}
+
 
