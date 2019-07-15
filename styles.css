@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: #e9e4ea;
+    background-color: rgba(243, 238, 244, 0.7);
     display:          grid;
     font-size:        16px;
     padding:          3%;
@@ -80,8 +80,8 @@ body {
     width:         2.2rem;
 }
 
-/*grid for header*/
-.container {
+/*grid for #header*/
+.h_container {
     display:               grid;
     grid-template-columns: 2fr 1fr 1fr;
     grid-template-rows:    3em 2fr 0.5fr;
@@ -113,27 +113,27 @@ body {
     display: none;
 }
 
-header {
+#header {
     background:      linear-gradient(180deg, #3d0045, #a600ac);
     justify-content: space-between;
 }
 
-header h1 {
+#header h1 {
     flex-grow: inherit;
 }
 
-header section {
+#header section {
     color:   #fcfcfc;
     padding: 0;
 }
 
-header section h1 {
+#header section h1 {
     font-size: 500%;
     margin:    0;
     padding:   0 0 0 8%;
 }
 
-header section h3 {
+#header section h3 {
     color:          #e9ba4e;
     font-size:      300%;
     letter-spacing: .1em;
@@ -141,26 +141,26 @@ header section h3 {
     padding-left:   8%;
 }
 
-header ul {
+#header ul {
     color:     #f4f5f5;
     display:   flex;
     font-size: 150%;
     flex-flow: column wrap;
-    margin:    0.2em 0 0 0;
+    margin:    0.8em 0 0 0;
 }
 
-header ul li {
+#header ul li {
     list-style: none;
     padding:    0.5em 1em 0.5em 0;
 }
 
-header ul a {
+#header ul a {
     color:           #f4f5f5;
     font-weight:     bold;
     text-decoration: none;
 }
 
-header ul li:hover a {
+#header ul li:hover a {
     text-shadow: 1px 1px 2px #e9ba4e;
 }
 
@@ -194,7 +194,7 @@ header ul li:hover a {
 
 main {
     background:            white;
-    padding:               1.5em;
+    padding:               1em;
     display:               grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap:              1rem;
@@ -235,7 +235,9 @@ main section dl dd ul {
 }
 
 #resume section h3 {
-    margin: 1rem 0 0.5rem 0;
+    margin-top:  0.5rem;
+    font-size:   120%;
+    font-weight: bolder;
 }
 
 #resume section ul {
@@ -285,7 +287,7 @@ footer p {
     height:     1.8em;
     font-size:  1.5em;
     margin:     0;
-    padding:    0.4em 0 0 0;
+    padding:    0.1em 0 0 0;
 }
 
 #print_footer {
@@ -304,7 +306,7 @@ footer p {
 }
 
 #resume section:nth-child(4) h3, #resume section:nth-child(6) h3 {
-    margin-top: 0;
+    margin-top: 0.4em;
 }
 
 #resume section:nth-child(4) ul li, #resume section:nth-child(6) ul li {
@@ -334,22 +336,26 @@ footer p {
         margin:  0;
     }
 
-    /*hide primary navigation above header*/
+    /*hide primary navigation above #header*/
     #primaryNav {
         display: none;
     }
 
-    /*resize h1 h3 li in header*/
-    .content-2 h1 {
-        font-size: 160%;
+    /*resize h1 h3 li in #header*/
+    #header section {
+        margin-top: 1.5em;
     }
 
-    .content-2 h3 {
-        font-size: 120%;
+    #header section h1 {
+        font-size: 10vw;
     }
 
-    .content-3 li {
-        font-size: 60%;
+    #header section h3 {
+        font-size: 5vw;
+    }
+
+    .content-3 li, .content-3 li a {
+        font-size: 5vw;
     }
 
     #resume {
@@ -364,8 +370,8 @@ footer p {
         min-width: 15rem;
     }
 
-    header ul a:nth-child(1) {
-        font-size: 95%;
+    #header ul a {
+        font-size: 3.8vw;
     }
 
     #primaryNav ul a {

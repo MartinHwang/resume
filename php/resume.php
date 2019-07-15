@@ -8,7 +8,7 @@
         <li><a href="#project">PROJECT WORK</a></li>
     </ul>
 </nav>
-<main>
+<main class="main">
     <div id="resume">
         <section>
             <h2 id="qualifications">QUALIFICATIONS</h2>

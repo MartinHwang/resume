@@ -1,4 +1,4 @@
-header {
+#header {
     background: linear-gradient(180deg, #30b409, #31ff5b);
 }
 
@@ -26,21 +26,26 @@ footer p {
 .portfolio main section h1 {
     border-bottom: 2px solid #30b409;
     color:         #30b409;
-    display:       inline
+    display:       inline;
+    font-size:     200%;
+    /*margin:        0 0 2em 2em;*/
 }
 
 .portfolio main section h2 {
     border-bottom: none;
     color:         black;
     display:       block;
-    margin:        1.5em 0 0 1em;
+
+    margin:        0 0 0 1vw;
+    font-size:     100%;
 }
 
 .portfolio main section h3 {
     border-bottom: none;
     color:         #c49a41;
     display:       block;
-    margin-left:   1em;
+    margin-top:    0.5em;
+    font-size:     120%;
 }
 
 .portfolio img {
@@ -55,7 +60,7 @@ footer p {
     }
 
     .portfolio main section {
-        padding-right: 3em;
+        /*padding-right: 3em;*/
     }
 }
 

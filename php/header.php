@@ -13,7 +13,7 @@
         <a href="https://github.com/MartinHwang"><img class="bounce" src="/img/githubIcon.png" alt="github icon"></a>
     </div>
 </nav>
-<header class="container">
+<header id="header" class="h_container">
     <div id="menu" class="content-1">
         <div onclick="openMenu()" id="menu_open" class="menu_open">
             <i class="fa fa-bars"></i>
@@ -32,14 +32,14 @@
         </nav>
     </div>
     <section class="content-2">
-        <h1 class="header-item">Martin Hwang</h1>
-        <h3 class="header-item">Web Developer</h3>
+        <h1>Martin Hwang</h1>
+        <h3>Web Developer</h3>
     </section>
-    <ul class="header-item content-3">
+    <ul class="content-3">
         <li>
-            <address class="article-item">Kitchener, ON</address>
+            <address>Kitchener, ON</address>
         </li>
-        <li><a class="article-item" href="tel:+15195803811">(519)580-3811</a></li>
-        <li><a class="article-item" href="mailto:resume@martinhwang.ca">resume@martinhwang.ca</a></li>
+        <li><a href="tel:+15195803811">(519)580-3811</a></li>
+        <li><a href="mailto:resume@martinhwang.ca">resume@martinhwang.ca</a></li>
     </ul>
 </header>

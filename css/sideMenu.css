@@ -49,16 +49,14 @@
     #menu nav {
         position:            fixed;
         height:              100%;
-        width:               300px;
         max-width:           100%;
+        z-index:             1;
         left:                0;
-        /*background:          linear-gradient(to bottom, rgba(133, 133, 133, 0.81), rgba(226, 226, 226, 0.8));*/
         background:          rgba(234, 234, 234, 0.95);
         background-size:     cover;
         background-position: center;
         top:                 0;
         visibility:          hidden;
-        /*transition:          visibility 0.1s, opacity 0.1s linear;*/
         box-shadow:          5px 0 25px rgba(0, 0, 0, .24);
     }
 
@@ -72,16 +70,6 @@
         to {left: -400px;}
     }
 
-    /*@keyframes moveLeft {*/
-    /*    from {left: -200px;}*/
-    /*    from {left: 0px;}*/
-    /*}*/
-
-    /*@keyframes moveRight {*/
-    /*    from {right: -200px;}*/
-    /*    from {right: 0px;}*/
-    /*}*/
-
     #menu nav ul {
         list-style: none;
         margin:     0;
@@ -93,10 +81,9 @@
     }
 
     #nav ul li a {
-        font-size:       0.7em;
+        font-size:       0.5em;
         text-decoration: none;
         display:         block;
-        /*color:           #e9ba4e;*/
         margin-left:     0.5em;
         text-transform:  uppercase;
         font-family:     Varela Round;

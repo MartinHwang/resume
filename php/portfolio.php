@@ -4,11 +4,12 @@
         <li><a href="#" onclick="displayMean()">MEAN</a></li>
     </ul>
 </nav>
-<div>
+
+<main>
     <div id="p">
         <script> displayWordpress(); </script>
         <div id="wordpress" class="portfolio"></div>
         <div id="mean" class="portfolio"></div>
     </div>
-</div>
+</main>
 
