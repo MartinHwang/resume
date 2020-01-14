@@ -4,4 +4,4 @@ Resume
 Project
 Recommendation Letter
 Co Curricular Record
-https://reusme.martinhwang.ca
+https://resume.martinhwang.ca/
